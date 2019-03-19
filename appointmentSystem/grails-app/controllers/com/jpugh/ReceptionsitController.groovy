@@ -2,5 +2,5 @@ package com.jpugh
 
 class ReceptionsitController {
 
-    def index() { }
+    def scaffold = Receptionsit
 }

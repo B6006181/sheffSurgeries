@@ -2,5 +2,5 @@ package com.jpugh
 
 class PatientController {
 
-    def index() { }
+  def scaffold = Patient
 }

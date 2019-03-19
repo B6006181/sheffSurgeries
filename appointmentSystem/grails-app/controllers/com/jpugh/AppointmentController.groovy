@@ -2,5 +2,5 @@ package com.jpugh
 
 class AppointmentController {
 
-    def index() { }
+    def scaffold = Appointment
 }

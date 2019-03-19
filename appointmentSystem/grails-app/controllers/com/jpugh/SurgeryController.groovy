@@ -2,5 +2,5 @@ package com.jpugh
 
 class SurgeryController {
 
-    def index() { }
+    def scaffold = Surgery
 }
