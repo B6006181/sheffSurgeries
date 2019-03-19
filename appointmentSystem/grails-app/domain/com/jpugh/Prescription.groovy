@@ -1,6 +1,6 @@
 package com.jpugh
 
-class Presciption {
+class Prescription {
 string pharmacyName
 int prescripNumber
 string medicine
