@@ -1,12 +1,12 @@
 package com.jpugh
 
 class Prescription {
-string pharmacyName
+String pharmacyName
 int prescripNumber
-string medicine
-string totalCost
-date dateIssued
-boolean patientPaying
+String medicine
+String totalCost
+Date dateIssued
+Boolean patientPaying
 
 static constraints = {
 pharmacyName blank:false, nullable:false

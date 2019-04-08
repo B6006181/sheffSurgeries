@@ -2,14 +2,16 @@ package com.jpugh
 
 class Appointment {
 Date appDate
-string appTime
+String appTime
 int appDuration
-string roomNumber
+String roomNumber
+Patient thepatient
 
     static constraints = {
 appDate blank:false, nullable:false
 appTime blank:false, nullable:false
-appDurationblank:false, nullable:false min=10, max=60
+appDuration blank:false, nullable:false, min:10, max:60
 roomNumber blank:false, nullable:false
+thepatient blank:false, nullable:false
     }
 }

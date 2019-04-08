@@ -2,5 +2,5 @@ package com.jpugh
 
 class PrescriptionController {
 
-    def scaffold = Presciption
+    def scaffold = Prescription
 }
